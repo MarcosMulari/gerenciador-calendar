@@ -167,46 +167,6 @@ class Emanager():
         #definir prioridade (não será implementador agora)
         
         #checar o intervalo que poderá ser adicionado eventos
-        
-        
-  
-########################################### MAIN ###########################################
-'''
-manager = Emanager()
-tema='Programação'
-manager.event_theme(tema)
-
-#zone
-tzstr= '-03:00' #shit pytz didnt define my timezone correctly
-tz= pytz.timezone('America/Sao_Paulo') #define your time zone
-#start_date
-year= 2023
-month= 1
-day= 28
-hour= 13
-minute= 30
-start_date=datetime.datetime(year, month, day, hour, minute)
-
-#event duration
-dhour=2
-dminute=0
-end_date=start_date+datetime.timedelta(hours=dhour)
-
-#infos
-event_name= 'Calendario Manager'
-event_description = 'Escrever proximos passos e ver anotações que deixei no código atual'
-
-info={'description':event_description,
-      'start':{
-            'dateTime':start_date.isoformat()+tzstr,
-            'timeZone':str(tz)
-            },
-      'end':{
-            'dateTime':end_date.isoformat()+tzstr,
-            'timeZone':str(tz)
-            }
-      }
-manager.addevent(info, event_name, start_date, end_date)'''
 
 manager = Emanager()
 manager.event_theme()
