@@ -23,6 +23,6 @@ What to do next:
 
 *That the theme information and already used collors and names get saved somewhere to avoid repetitions
 
-*In future integrate this on a organization software, maybe a UI? I usually hate all organization softwares cause they don't take in count that TDAH peoples exist,
+*In future integrate this on a organization software, maybe a GUI? I usually hate all organization softwares cause they don't take in count that TDAH peoples exist,
 maybe an organization software that re-make your planning with the inputs that you give without the 'OMG i didnt do anything this week and have to re-do all my planning
 and chaos and i hate myself'
